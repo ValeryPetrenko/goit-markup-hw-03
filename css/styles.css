@@ -60,7 +60,11 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  outline: 2px solid toma;
+}
+
+.header{
+  border-bottom:#ECECEC 1px; 
 }
 
 .header-navigation{
@@ -202,6 +206,12 @@ img {
   padding-top: 74px; 
   padding-bottom: 94px;
 }
+
+.solutions-list{
+ display: flex;
+ justify-content: space-between;
+}
+
 .solutions-list h3 {
   font-size: 14;
   line-height: 1.14;
@@ -227,6 +237,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-title-color)
 }
+
+.devices-list{
+  display: flex;
+  justify-content:space-between;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -241,6 +257,10 @@ img {
   padding-bottom: 94px;
 }
 
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
 .team-name {
  font-weight: 500;
   font-size: 16px;
@@ -249,6 +269,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .team-position {
@@ -257,6 +278,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 124px;
 }
 
 .logo-footer-web {
@@ -279,12 +301,16 @@ img {
 
 .info {
   background-color: var(--second-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .info-address {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  margin-bottom: 9px;
+  margin-top: 20px;
 }
 
 .info-email {
@@ -292,6 +318,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color:var(--contacts-color);
+  margin-bottom: 9px;
 }
 
 .info-email:hover{
@@ -317,11 +344,33 @@ img {
   color: var(--third-title-color)
 }
 
+.buttons{
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.button-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.project{
+ padding-bottom: 94px;
+}
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .project-item h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color:var(--second-title-color)
+  color:var(--second-title-color);
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 
 .project-item p {
@@ -329,4 +378,9 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.project-footer{
+  border: 1px solid #EEEEEE
 }
