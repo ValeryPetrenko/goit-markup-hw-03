@@ -59,16 +59,11 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid toma;
+  margin: 0 auto; 
 }
 
 .header{
   border-bottom:#ECECEC solid 1px; 
-}
-
-.header-navigation{
-  padding-top: 32px;
 }
 
 .header-list .link.current{
@@ -137,6 +132,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  display: block;
+  padding: 32px 0;
 }
 
 .header-link-email { 
@@ -175,6 +172,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-btn {
@@ -183,13 +183,29 @@ img {
   margin: 0 auto;
   display: block;
   margin-top: 30px;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 
 }
 
 .button.primary {
   color: #212121;
-  background-color: var(--main-title-color);
+  background-color: var(--third-background-color);
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  height: 38px;
+  width: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
 }
 
 .button.primary:hover{
@@ -203,7 +219,7 @@ img {
 }
 
 .solutions{
-  padding-top: 74px; 
+  padding-top: 94px; 
   padding-bottom: 94px;
 }
 
@@ -212,8 +228,12 @@ img {
  justify-content: space-between;
 }
 
+.solutions-list li {
+  width: 270px;
+}
+
 .solutions-list h3 {
-  font-size: 14;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -227,7 +247,7 @@ img {
 }
 
 .devices{
-  padding-top: 94px;
+  padding-top: 0px;
   padding-bottom: 94px;
 }
 .devices-title {
@@ -261,6 +281,16 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.team-item{
+background: #FFFFFF;
+ /* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+width: 270px;
+height: 368px;
+}
+
 .team-name {
  font-weight: 500;
   font-size: 16px;
@@ -269,7 +299,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   margin-bottom: 10px;
-  margin-top: 30px;
+}
+
+.team-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-position {
@@ -304,13 +338,17 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.info-list{
+margin-top: 20px;
+}
+
 .info-address {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 9px;
-  margin-top: 20px;
 }
 
 .info-email {
@@ -344,24 +382,26 @@ img {
   color: var(--third-title-color)
 }
 
-.buttons{
+.main{
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
-.button-list{
+
+.button-list {
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
-.project{
- padding-bottom: 94px;
+.button-list li{
+  margin-bottom: 50px;
 }
 
 .project-list{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 50px;
 }
 
 .project-item h2 {
@@ -371,6 +411,7 @@ img {
   color:var(--second-title-color);
   margin-bottom: 4px;
   margin-top: 20px;
+  margin-left: 24px;
 }
 
 .project-item p {
@@ -379,8 +420,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 .project-footer{
-  border: 1px solid #EEEEEE
+  border: 1px solid #EEEEEE;
 }
