@@ -177,7 +177,7 @@ img {
 }
 .hero {
   background-color: var(--second-background-color);
-  padding: 200 0;
+  padding: 200px 0;
 }
 
 .hero-title {
