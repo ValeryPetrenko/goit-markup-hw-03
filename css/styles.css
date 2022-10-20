@@ -168,7 +168,7 @@ img {
 
 .header-link-number:hover{
   color: var(--third-title-color);
-  padding: 200px 0;
+ 
 }
 
 .section{
@@ -177,6 +177,7 @@ img {
 }
 .hero {
   background-color: var(--second-background-color);
+  padding: 200 0;
 }
 
 .hero-title {
